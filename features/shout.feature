@@ -22,4 +22,4 @@ Scenario: No shout message
       "authentication_token":"aaa"
    }
    """
-  Then the JSON response should have "errors" with the text "No response"
+  Then the JSON response should have "errors" with the text "No shout message"
