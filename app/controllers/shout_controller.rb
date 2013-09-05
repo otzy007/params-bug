@@ -2,13 +2,13 @@ class ShoutController < ApplicationController
    def create
       p 'Parametri'
   
-      p params[:shout]
+      p params[:lol]
       
-      unless params.key? :shout
+      unless params.key? :lol
 	 render :json => { :errors => 'No shout message' }, :status => :bad_request
 	 return
       end
-      shout = params[:shout]
+      shout = params[:lol]
    
       render :json => { :errors => 'Done' }, :status => :ok
    end

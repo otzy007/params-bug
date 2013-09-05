@@ -9,7 +9,7 @@ Scenario: User shouts
    {
       "api_key":"aa",
       "authentication_token":"aa",
-      "shout":"trololo"
+      "lol":"trololo"
    }
    """
    Then the response status should be "200"
